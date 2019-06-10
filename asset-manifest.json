@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/jasonfleming1/princessclicker/static/css/main.019ec810.chunk.css",
-    "main.js": "/jasonfleming1/princessclicker/static/js/main.22d04e14.chunk.js",
-    "main.js.map": "/jasonfleming1/princessclicker/static/js/main.22d04e14.chunk.js.map",
+    "main.js": "/jasonfleming1/princessclicker/static/js/main.21d3ce3c.chunk.js",
+    "main.js.map": "/jasonfleming1/princessclicker/static/js/main.21d3ce3c.chunk.js.map",
     "runtime~main.js": "/jasonfleming1/princessclicker/static/js/runtime~main.20da88bb.js",
     "runtime~main.js.map": "/jasonfleming1/princessclicker/static/js/runtime~main.20da88bb.js.map",
     "static/js/2.ea1fb216.chunk.js": "/jasonfleming1/princessclicker/static/js/2.ea1fb216.chunk.js",
     "static/js/2.ea1fb216.chunk.js.map": "/jasonfleming1/princessclicker/static/js/2.ea1fb216.chunk.js.map",
     "index.html": "/jasonfleming1/princessclicker/index.html",
-    "precache-manifest.b533b6db48fd1ab4ef5846fafb2117c3.js": "/jasonfleming1/princessclicker/precache-manifest.b533b6db48fd1ab4ef5846fafb2117c3.js",
+    "precache-manifest.2113ce8e4ae539ae1c1857a17ff1d8cf.js": "/jasonfleming1/princessclicker/precache-manifest.2113ce8e4ae539ae1c1857a17ff1d8cf.js",
     "service-worker.js": "/jasonfleming1/princessclicker/service-worker.js",
     "static/css/main.019ec810.chunk.css.map": "/jasonfleming1/princessclicker/static/css/main.019ec810.chunk.css.map"
   }
