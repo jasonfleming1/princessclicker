@@ -2,73 +2,73 @@
     {
       "id": 1,
       "name": "belle",
-      "image": "/assets/images/belle.png",
+      "image": "assets/belle.png",
       "clicked": false
     },
     {
       "id": 2,
       "name": "rapunzel",
-      "image": "/assets/images/rapunzel.png",
+      "image": "assets/rapunzel.png",
       "clicked": false
     },
     {
       "id": 3,
       "name": "ariel",
-      "image": "/assets/images/ariel.png",
+      "image": "assets/ariel.png",
       "clicked": false
     },
     {
       "id": 4,
       "name": "tiana",
-      "image": "/assets/images/tiana.png",
+      "image": "assets/tiana.png",
       "clicked": false
     },
     {
       "id": 5,
       "name": "moana",
-      "image": "/assets/images/moana.png",
+      "image": "assets/moana.png",
       "clicked": false
     },
     {
       "id": 6,
       "name": "cinderella",
-      "image": "/assets/images/cinderella.png",
+      "image": "assets/cinderella.png",
       "clicked": false
     },
     {
       "id": 7,
       "name": "anna",
-      "image": "/assets/images/anna.png",
+      "image": "assets/anna.png",
       "clicked": false
     },
     {
       "id": 8,
       "name": "elsa",
-      "image": "/assets/images/elsa.png",
+      "image": "assets/elsa.png",
       "clicked": false
     },
     {
       "id": 9,
       "name": "pocahontas",
-      "image": "/assets/images/pocahontas.png",
+      "image": "assets/pocahontas.png",
       "clicked": false
     },
     {
       "id": 10,
       "name": "jasmine",
-      "image": "/assets/images/jasmine.png",
+      "image": "assets/jasmine.png",
       "clicked": false
     },
     {
       "id": 11,
       "name": "mulan",
-      "image": "/assets/images/mulan.png",
+      "image": "assets/mulan.png",
       "clicked": false
     },
     {
       "id": 12,
       "name": "snowwhite",
-      "image": "/assets/images/snowwhite.png",
+      "image": "assets/snowwhite.png",
       "clicked": false
     }
   ]
