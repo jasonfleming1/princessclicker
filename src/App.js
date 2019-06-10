@@ -20,8 +20,6 @@ class App extends Component {
     
   }
 
-  //Don't click the same princess twice!
-
   // componentDidMount | display and shuffle data
   componentDidMount(){
     this.setState({ data: this.shuffle(this.state.data)})
@@ -44,38 +42,40 @@ class App extends Component {
       alert: "Click a princess to begin!",
       highScore: Math.max(this.state.score, this.state.highScore),
       score: 0,
-      data: data,
+      data: data
     })
+    this.shuffle(data);
   }
 
-  // handleClickEvent | 
-    handleClickEvent = name => {
-      //alert("This Card's id is " + Card + this.state.name)
-      let isCorrect = false;
-      const newData = this.state.data.map(data => {
-        const newCard = {...data};
-        if (newCard.name === name)
-          if (!newCard.clicked) {
-            console.log("Already guessed this princess");
-            newCard.clicked = true;
-            isCorrect = true;
-          }
-          return newCard;
-      })
-    console.log("Guess Correct! ", isCorrect);
-    isCorrect ? this.handleCorrectGuess(newData) : this.handleIncorrectGuess(newData);
+  //handleClickEvent | https://www.robinwieruch.de/react-pass-props-to-component/ | https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+
+  handleClickEvent = name => {
+    //alert("This Card's id is " + Card + this.state.name)
+    let isCorrect = false;
+    const newData = this.state.data.map(data => {
+      const newCard = {...data};
+      if (newCard.name === name)
+        if (!newCard.clicked) {
+          console.log("Already guessed this princess");
+          newCard.clicked = true;
+          isCorrect = true;
+        }
+        return newCard;
+    })
+  console.log("Guess Correct! ", isCorrect);
+  isCorrect ? this.handleCorrectGuess(newData) : this.handleIncorrectGuess(newData);
 	}
   // handle correct guess | increment score
   handleCorrectGuess = newData => {
     this.setState({ 
-      data: this.shuffle(newData),
       score: this.state.score +1,
-      alert: "Nice One! Keep going!"
+      alert: "Nice One! Keep going!",
+      data: this.shuffle(newData)
     }, () => {
       if (this.state.score === 12) {
-        alert("You're a princess!") //wish i had time to clean this up
-        this.state({
-          alert: "You're a princess!",
+        alert("You've won the game! Click okay to play again'") //wish i had time to clean this up
+        this.setState({
+          alert: "You're a winner!",
         })
         console.log(alert);
         this.resetGame();
@@ -85,7 +85,7 @@ class App extends Component {
 
   // handle incorrect guess | 
   handleIncorrectGuess = () => {
-    //alert("I'm sorry! Let's try again!") //wish i had time to clean this up
+    alert("Game Over :-( ! Let's try again!") // placeholder for fail feature in demo app
     this.setState({
       alert: "Game Over! Let's try again"
     })
