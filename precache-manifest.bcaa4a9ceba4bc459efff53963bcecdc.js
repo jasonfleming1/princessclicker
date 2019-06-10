@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6bf691324544357d24f71bf33139c154",
+    "revision": "f433dd3854e083c0e7fab511f2e329f4",
     "url": "/princessclicker/index.html"
   },
   {
