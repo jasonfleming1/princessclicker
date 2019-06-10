@@ -2,7 +2,7 @@
   "name": "princess",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/jasonfleming1/princessclicker",
+  "homepage": "https://jasonfleming1.github.io/princessclicker/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "react": "^16.8.6",
