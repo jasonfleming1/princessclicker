@@ -12,25 +12,20 @@
 
   #brand {
     color: white;
-    font-size: 55px;
     font-weight: bolder;
     font-family: 'Poiret One', cursive;
   }
 
   #alert {
     color: white;
-    font-size: 25px;
     font-weight: 900;
     font-family: 'Source Sans Pro', sans-serif;
-    padding-top: 25px;
   }
 
     #scoreBoard {
       color: white;
-      font-size: 25px;
       font-weight: 900;
       font-family: 'Source Sans Pro', sans-serif;
-      padding-top: 25px;
     }
    
   /******* MEDIA QUERIES ********/
@@ -38,52 +33,74 @@
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
     #brand {
-      font-size: 30px;
+      font-size: 20px;
     }
     #alert {
       font-size: 15px;
+      padding-top: 5px;
     }
     #scoreBoard {
       font-size: 15px;
+      padding-top: 5px;
     }
   }
 
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (max-width: 600px) {
+  /*Small devices (portrait tablets and large phones, 600px and up)*/
+  @media only screen and (min-width: 600px) {
     #brand {
-      font-size: 30px;
+      font-size: 23px;
     }
     #alert {
       font-size: 15px;
+      padding-top: 5px;
     }
     #scoreBoard {
       font-size: 15px;
+      padding-top: 5px;
     }
   }
 
   /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (max-width: 768px) {
+  @media only screen and (min-width: 768px) {
     #brand {
-      font-size: 30px;
+      font-size: 27px;
     }
     #alert {
-      font-size: 15px;
+      font-size: 20px;
+      padding-top: 7px;
     }
     #scoreBoard {
-      font-size: 15px;
+      font-size: 20px;
+      padding-top: 7px;
     }
   }
 
   /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (max-width: 992px) {
+  @media only screen and (min-width: 992px) {
     #brand {
-      font-size: 45px;
+      font-size: 35px;
     }
     #alert {
-      font-size: 20px;
+      font-size: 27px;
+      padding-top: 11px;
     }
     #scoreBoard {
-      font-size: 20px;
+      font-size: 27px;
+      padding-top: 11px;
     }
   }
 
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+      #brand {
+        font-size: 55px;
+      }
+      #alert {
+        font-size: 30px;
+        padding-top: 25px;
+      }
+      #scoreBoard {
+        font-size: 30px;
+        padding-top: 25px;
+      }
+    }
