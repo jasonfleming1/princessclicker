@@ -89,7 +89,7 @@ class App extends Component {
         <Wrapper>
           {this.state.data.map(data => (
             <Card 
-              key={data.name}
+              key={data.id}
               name={data.name}
               image={data.image}
               handleClickEvent={this.handleClickEvent}
