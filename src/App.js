@@ -41,7 +41,7 @@ class App extends Component {
   // reset game | use .map (readme.6)
   resetGame = () => {
     this.setState({
-      alert: "Too bad! let's try again",
+      alert: "Click a princess to begin!",
       highScore: Math.max(this.state.score, this.state.highScore),
       score: 0,
       data: data,
@@ -71,12 +71,24 @@ class App extends Component {
       data: this.shuffle(newData),
       score: this.state.score +1,
       alert: "Nice One! Keep going!"
+    }, () => {
+      if (this.state.score === 12) {
+        alert("You're a princess!") //wish i had time to clean this up
+        this.state({
+          alert: "You're a princess!",
+        })
+        console.log(alert);
+        this.resetGame();
+      }
     })
   }
 
   // handle incorrect guess | 
   handleIncorrectGuess = () => {
-
+    //alert("I'm sorry! Let's try again!") //wish i had time to clean this up
+    this.setState({
+      alert: "Game Over! Let's try again"
+    })
     this.resetGame();
   }
   
