@@ -1,0 +1,18 @@
+/* https://css-tricks.com/tinted-images-multiple-backgrounds/ */
+
+.footer {
+  background: #F18D9E;
+  border-top: 7px solid #5BC8AC;
+  box-shadow: 0px -3px 14px 0px #5BC8AC;
+  display: inline-flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  justify-content: space-evenly; 
+}
+
+#appName {
+  color: white;
+  font-size: 35px;
+  font-weight: 900;
+  font-family: 'Poiret One', cursive;
+}
