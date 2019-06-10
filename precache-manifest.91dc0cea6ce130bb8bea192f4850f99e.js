@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a0d1024a5883d8588d08ce74a00720f3",
+    "revision": "6bf691324544357d24f71bf33139c154",
     "url": "/princessclicker/index.html"
   },
   {
-    "revision": "7c36f77d6ebfec724b33",
+    "revision": "af429af9550441d6fa9f",
     "url": "/princessclicker/static/css/main.019ec810.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/princessclicker/static/js/2.ea1fb216.chunk.js"
   },
   {
-    "revision": "7c36f77d6ebfec724b33",
-    "url": "/princessclicker/static/js/main.0b04352a.chunk.js"
+    "revision": "af429af9550441d6fa9f",
+    "url": "/princessclicker/static/js/main.7efde542.chunk.js"
   },
   {
     "revision": "e11f8c6e3854694295e1",
