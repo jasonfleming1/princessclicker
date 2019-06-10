@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/princessclicker/precache-manifest.5b313cfad92916604820cc794d74eeec.js"
+  "/princessclicker/precache-manifest.147f5d14400f548c7dd8705371de979f.js"
 );
 
 self.addEventListener('message', (event) => {
