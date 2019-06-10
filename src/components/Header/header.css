@@ -78,15 +78,15 @@
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
     #brand {
-      font-size: 35px;
+      font-size: 51px;
     }
     #alert {
-      font-size: 27px;
-      padding-top: 11px;
+      font-size: 25px;
+      padding-top: 23px;
     }
     #scoreBoard {
-      font-size: 27px;
-      padding-top: 11px;
+      font-size: 25px;
+      padding-top: 23px;
     }
   }
 
