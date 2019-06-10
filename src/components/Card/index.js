@@ -9,7 +9,7 @@ const Card = (props) => (
         alt="princess" 
         src={props.image} 
         onClick={() => props.handleClickEvent(props.name)}
-        id={props.id} />
+        id={props.name} />
     </div>
 );
 
